@@ -54,26 +54,28 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+//    重複播放
     @IBAction func repeatButton(_ sender: UIButton) {
+//        按一下＋1
         repeatIndex += 1
+//        等於1圖示就會改變
         if repeatIndex == 1 {
             repeatButton.setImage(setbuttonImage(systemName: "repeat.1", pointSize: 15), for: .normal)
+//            如果repeatBool = true 就會重複播放
             repeatBool = true
-            updateMusciUI()
-            updateUI()
-            nowPlayTime()
-            
         }else{
             repeatIndex = 0
             repeatButton.setImage(setbuttonImage(systemName: "repeat", pointSize: 15), for: .normal)
+//            是false就不會重複播放
             repeatBool = false
         }
-        
     }
+//    是否隨機播放
     @IBAction func shuffleButton(_ sender: Any) {
+//        按一下+1
         shuffleIndex += 1
+//        等於1時圖示就會變
         if shuffleIndex == 1{
-            
             shuffleButton.setImage(setbuttonImage(systemName: "shuffle.circle.fill", pointSize: 20), for: .normal)
             print("musicIndex\(musicIndex)")
             print("allmusic.count\(allmusic.count)")
@@ -124,11 +126,11 @@ class ViewController: UIViewController {
     @IBAction func MvPlayerButton(_ sender: UIButton) {
         
     }
-    
+//    播放當前在播放的東西
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        
+//        讓影片播放跟主頁一樣
         let MyAVPlayerVC = segue.destination as! MyAVPlayerViewController
-        
+//        播放
         MyAVPlayerVC.player = player
     }
 //    更新歌曲、歌手、畫面圖片
