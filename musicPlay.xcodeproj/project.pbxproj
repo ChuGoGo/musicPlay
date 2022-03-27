@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E378F8127EB28DB0003D851 /* AVPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E378F8027EB28DB0003D851 /* AVPlayerViewController.swift */; };
+		9E378F8327EB2D280003D851 /* onemoretime.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9E378F8227EB2D280003D851 /* onemoretime.mp4 */; };
 		9EC7AC6227E9C401006F162C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC7AC6127E9C401006F162C /* AppDelegate.swift */; };
 		9EC7AC6427E9C401006F162C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC7AC6327E9C401006F162C /* SceneDelegate.swift */; };
 		9EC7AC6627E9C401006F162C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC7AC6527E9C401006F162C /* ViewController.swift */; };
 		9EC7AC6927E9C401006F162C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EC7AC6727E9C401006F162C /* Main.storyboard */; };
 		9EC7AC6B27E9C401006F162C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EC7AC6A27E9C401006F162C /* Assets.xcassets */; };
 		9EC7AC6E27E9C401006F162C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EC7AC6C27E9C401006F162C /* LaunchScreen.storyboard */; };
+		9EC7AC7627EAF47E006F162C /* musicList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC7AC7527EAF47E006F162C /* musicList.swift */; };
+		9EC7AC7827EAF74B006F162C /* Remedy.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9EC7AC7727EAF74B006F162C /* Remedy.mp4 */; };
+		9EC7AC7C27EB049E006F162C /* BabyImYours.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9EC7AC7B27EB049E006F162C /* BabyImYours.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E378F8027EB28DB0003D851 /* AVPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPlayerViewController.swift; sourceTree = "<group>"; };
+		9E378F8227EB2D280003D851 /* onemoretime.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = onemoretime.mp4; sourceTree = "<group>"; };
 		9EC7AC5E27E9C401006F162C /* musicPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = musicPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EC7AC6127E9C401006F162C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9EC7AC6327E9C401006F162C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,9 @@
 		9EC7AC6A27E9C401006F162C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9EC7AC6D27E9C401006F162C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9EC7AC6F27E9C401006F162C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EC7AC7527EAF47E006F162C /* musicList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = musicList.swift; sourceTree = "<group>"; };
+		9EC7AC7727EAF74B006F162C /* Remedy.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Remedy.mp4; sourceTree = "<group>"; };
+		9EC7AC7B27EB049E006F162C /* BabyImYours.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = BabyImYours.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +70,14 @@
 				9EC7AC6327E9C401006F162C /* SceneDelegate.swift */,
 				9EC7AC6527E9C401006F162C /* ViewController.swift */,
 				9EC7AC6727E9C401006F162C /* Main.storyboard */,
+				9E378F8027EB28DB0003D851 /* AVPlayerViewController.swift */,
+				9EC7AC7527EAF47E006F162C /* musicList.swift */,
 				9EC7AC6A27E9C401006F162C /* Assets.xcassets */,
 				9EC7AC6C27E9C401006F162C /* LaunchScreen.storyboard */,
 				9EC7AC6F27E9C401006F162C /* Info.plist */,
+				9EC7AC7727EAF74B006F162C /* Remedy.mp4 */,
+				9EC7AC7B27EB049E006F162C /* BabyImYours.mp4 */,
+				9E378F8227EB2D280003D851 /* onemoretime.mp4 */,
 			);
 			path = musicPlay;
 			sourceTree = "<group>";
@@ -127,7 +142,10 @@
 			files = (
 				9EC7AC6E27E9C401006F162C /* LaunchScreen.storyboard in Resources */,
 				9EC7AC6B27E9C401006F162C /* Assets.xcassets in Resources */,
+				9EC7AC7C27EB049E006F162C /* BabyImYours.mp4 in Resources */,
 				9EC7AC6927E9C401006F162C /* Main.storyboard in Resources */,
+				9E378F8327EB2D280003D851 /* onemoretime.mp4 in Resources */,
+				9EC7AC7827EAF74B006F162C /* Remedy.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +159,8 @@
 				9EC7AC6627E9C401006F162C /* ViewController.swift in Sources */,
 				9EC7AC6227E9C401006F162C /* AppDelegate.swift in Sources */,
 				9EC7AC6427E9C401006F162C /* SceneDelegate.swift in Sources */,
+				9E378F8127EB28DB0003D851 /* AVPlayerViewController.swift in Sources */,
+				9EC7AC7627EAF47E006F162C /* musicList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
